@@ -47,3 +47,15 @@ body {
     padding: 10px 0;
     font-family: "DM Sans", sans-serif;
 }
+
+.library {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.219);
+    border-radius: 8px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.library .header span {
+    padding: 10px;
+}
