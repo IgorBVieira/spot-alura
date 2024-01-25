@@ -15,49 +15,62 @@
 </head>
 
 <body>
+    <!-- Search Block -->
     <div class="sidebar">
-        <nav class="sidebar_navigation">
+        <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
                     <img src="assets/icons/logo-spotify.png" alt="Spotify logo" />
                 </a>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-home"></span>
-                            <span>Inicio</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-search"></span>
-                            <span>Buscar</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
 
-
-        </nav><!--- nav serve para criar uma barra de navegação -->
-
-        <nav class="library">
-            <div class="header">
-                <span class="fa fa-book"></span>
-                <span>Sua Biblioteca</span>
-                <span class="fa fa-plus"></span>
-            </div>
-            <br>
-            <div class="playlist">
-                <h1>Vai existir uma playlist</h1>
-            </div>
-            <br>
-            <div class="language">
-                <h2>Trocar lingua</h2>
-            </div>
-
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
+        <!-- Library Block -->
+
+        <div class="library">
+            <div class="library__content">
+                <buttons class="library__button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                    </button>
+                    <span class="fa fa-plus"></span>
+            </div>
+            <!-- Playlist Block -->
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section-playlist__button">
+                        <span>Criar Playlist</span>
+                    </button>
+                </div>
+            </section>
+            <!-- Cookies -->
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+            <!-- Languages -->
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português Brasil</span>
+                </button>
+            </div>
+        </div>
     </div>
 </body>
 
