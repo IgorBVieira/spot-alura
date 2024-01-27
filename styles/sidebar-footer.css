@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-color: var(--color-black);
+    font-family: var(--font-dm-sans);
 }
 
 /* SIDEBAR */
@@ -45,7 +46,6 @@ body {
     font-weight: bold;
     font-size: 14px;
     padding: 10px 0;
-    font-family: "DM Sans", sans-serif;
 }
 
 /* SIDEBAR - LIBRARY */
@@ -76,7 +76,6 @@ body {
     border: 0;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -117,7 +116,6 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title {
@@ -133,11 +131,10 @@ body {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    color: #000;
+    color: var(--color-black);
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -201,7 +198,6 @@ body {
 .footer__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
     font-weight: 500;
 }
 
@@ -211,11 +207,10 @@ body {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    color: #000;
+    color: var(--color-black);;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;

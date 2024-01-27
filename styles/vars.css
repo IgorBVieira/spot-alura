@@ -1,0 +1,15 @@
+/* Utilizar as variáveis para impedir repetição
+de código no CSS */
+
+/* root significa raiz, ou seja, o elemento root do html */
+:root {
+    /* Fonts */
+    --font-dm-sans: "DM Sans", sans-serif; /*estamos definindo a fonte do projeto*/
+
+
+    /* Colors */
+    --color-black: #000;
+    --color-white: #fff;
+    --color-gray: #b3b3b3;
+    --color-green: #1ED760;
+}
